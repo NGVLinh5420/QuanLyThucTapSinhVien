@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_nav_Home"
+        android:icon="@drawable/l_baseline_home_24"
+        android:title="Home" />
+
+    <item android:title="Option">
+        <menu>
+            <item
+                android:id="@+id/menu_nav_BaoCaoTuan"
+                android:icon="@drawable/l_baseline_sports_score_24"
+                android:title="Báo Cáo Tuần" />
+
+            <item
+                android:id="@+id/menu_nav_ThongBao"
+                android:icon="@drawable/baseline_notifications_active_24"
+                android:title="Thông Báo" />
+
+            <item
+                android:id="@+id/menu_nav_ThongKe"
+                android:icon="@drawable/baseline_library_books_24"
+                android:title="Thống Kê" />
+            <item
+                android:id="@+id/menu_nav_BieuDo"
+                android:icon="@drawable/baseline_add_chart_24"
+                android:title="Biểu Đồ" />
+        </menu>
+    </item>
+
+</menu>
